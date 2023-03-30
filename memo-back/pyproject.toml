@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "memo-back"
+version = "0.1.0"
+description = "memo-backendapp"
+authors = ["yujis"]
+license = "yujis"
+readme = "README.md"
+packages = [{include = "memo_back"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.95.0"
+uvicorn = {extras = ["standard"], version = "^0.21.1"}
+pymongo = "^4.3.3"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
