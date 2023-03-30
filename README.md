@@ -9,3 +9,11 @@ Python
 ### databases
 - mongoDB
 - mysql?
+
+## How to start server
+poetry run uvicorn main:memo_back --reload
+### --reload
+only development hot reload
+
+## SwaggerUI
+http://127.0.0.1:8000/docs
