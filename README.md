@@ -17,3 +17,6 @@ only development hot reload
 
 ## SwaggerUI
 http://127.0.0.1:8000/docs
+
+## Author
+yujis
